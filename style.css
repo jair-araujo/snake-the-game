@@ -1,0 +1,25 @@
+body {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(0, 126, 6);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#game-over {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  color: #ff0000;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
